@@ -28,7 +28,7 @@ const Footer = () => {
                     <ul className='space-y-2'>
                         <li><Link to="/" onClick={scrollToTop} className="hover:text-white transition-colors">홈</Link></li>
                         <li><Link to="/about" onClick={scrollToTop} className="hover:text-white transition-colors">회사 정보</Link></li>
-                        <li><Link to="/leadershipt" onClick={scrollToTop} className="hover:text-white transition-colors">임원 소개</Link></li>
+                        <li><Link to="/leadership" onClick={scrollToTop} className="hover:text-white transition-colors">임원 소개</Link></li>
                         <li><Link to="/board" onClick={scrollToTop} className="hover:text-white transition-colors">업무 게시판</Link></li>
                         <li><Link to="/our-services" onClick={scrollToTop} className="hover:text-white transition-colors">제공 기술</Link></li>
                         <li><Link to="/contact" onClick={scrollToTop} className="hover:text-white transition-colors">문의</Link></li>
